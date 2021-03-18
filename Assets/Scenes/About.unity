@@ -237,8 +237,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: 136.9}
-  m_SizeDelta: {x: 213.1, y: 77.9}
+  m_AnchoredPosition: {x: -260, y: 81.6}
+  m_SizeDelta: {x: 348.61, y: 218.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &618310380
 MonoBehaviour:
@@ -271,10 +271,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Up Arrow key = Jump
+  m_Text: 'Up Arrow key / W = Jump
+
+    * Jump while near a wall = Wall Jump
 
 
-    Down Arrow Key = slide'
+    Down Arrow Key / S = slide'
 --- !u!222 &618310381
 CanvasRenderer:
   m_ObjectHideFlags: 0
