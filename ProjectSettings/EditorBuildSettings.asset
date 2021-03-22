@@ -7,17 +7,20 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: f4d824b7f609f4e4684cdb903bfb504d
   - enabled: 1
     path: Assets/Scenes/About.unity
-    guid: 8bd8edbf23b61014a858357c051071a0
+    guid: faac10565e326df42a9979489d6cb143
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 2d47205affd4fe841aeced9238e92934
+    path: Assets/Scenes/Testing Room.unity
+    guid: 29e51df1a9eb0814587cd99e6d4cfdd0
   - enabled: 1
     path: Assets/Scenes/Win.unity
-    guid: edd54eb7eb5950d4dbe7767599ad9ce4
+    guid: 30db0baa7820bcd4ea7b09759af38b95
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
-    guid: 612d76b44a51a2e478925d63c9698786
+    guid: 68be004dccf630f4d88c0b42eed6f84b
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: cc7a467cb5d2a6b4cbb7e749f02a5785
   m_configObjects: {}

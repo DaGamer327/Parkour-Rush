@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerController : MonoBehaviour
 {
@@ -96,7 +98,7 @@ public class PlayerController : MonoBehaviour
 
         if(isNearWall && !isGrounded)
         {
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetKeyDown(KeyCode.W))
             {
                 transform.RotateAround(transform.position, transform.up, 180f);
                 speed *= -1;
@@ -121,6 +123,26 @@ public class PlayerController : MonoBehaviour
             }
             */
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        //Check to see if the tag on the collider is equal to Enemy
+        if (other.tag == "Goal")
+        {
+            SceneManager.LoadScene(3);
+
+
+        }
+
+        if (other.tag == "PowerUp")
+        {
+            SoundManager.PlaySound("PowerUp");
+
+
+
+        }
+
     }
 
 }
